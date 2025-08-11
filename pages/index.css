@@ -4,3 +4,20 @@
 @import url(../blocks/gallery.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/globals.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #2a2c2f;
+  color: white;
+}
+
+.container {
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
