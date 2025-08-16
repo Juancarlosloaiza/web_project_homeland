@@ -1,0 +1,21 @@
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  gap: 18px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Tablet: 2 columnas */
+@media screen and (max-width: 1024px) {
+  .grid__container {
+    grid-template-columns: repeat(2, 284px);
+  }
+}
+
+/* Mobile: 1 columna */
+@media screen and (max-width: 544px) {
+  .grid__container {
+    grid-template-columns: 1fr;
+  }
+}
